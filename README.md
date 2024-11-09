@@ -1,4 +1,4 @@
-# CS 460 Project 3 - Indoor and Outdoor Mapping
+# CS 460 Project 2 - Indoor and Outdoor Mapping
 
 This README outlines the steps to build and launch the `webots_ros2_mappings` ROS 2 package.
 
