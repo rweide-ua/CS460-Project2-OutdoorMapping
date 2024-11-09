@@ -1,0 +1,1904 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/stairs/protos/StraightStairs.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Window.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/fire_extinguisher/protos/FireExtinguisher.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Desk.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Keyboard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Monitor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/ComputerMouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/DesktopComputer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/OfficeChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/CarpetFibers.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/Chair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Ceiling.proto"
+
+WorldInfo {
+  info [
+    "Houser Hall 3rd Floor"
+  ]
+  title "Houser Hall 3rd Floor"
+}
+Viewpoint {
+  orientation -0.25891970633376515 0.3916527866615125 0.8829318662118321 1.361531336981955
+  position 5.699727406205245 -42.33471031986613 36.44918482274422
+}
+TexturedBackground {
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 3.1 0.5 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 3.1 5.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 7.4 4.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 11.5 4.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 14.5 4.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 17.4 4.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 20.6 4.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 23.9 4.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 27 4.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 30.4 4.2 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 30.4 0.8 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 26.8 0.8 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 23.3 0.9 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 19.9 0.9 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 16.4 0.9 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 13.1 0.9 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 9.8 0.9 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 6.5 0.9 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 30.4 7.4 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 30.4 10.3 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 30.4 13.5 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 32.2 14.1 2
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 34.5 10.9 3.6
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 34.5 8.4 3.6
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 34.5 6.1 3.6
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 34.5 2.9 3.6
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 36.7 2.8 3.6
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 36.7 6 3.6
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 36.7 8.4 3.6
+  radius 7
+  castShadows TRUE
+}
+PointLight {
+  attenuation 0 0 1
+  intensity 3
+  location 36.7 10.8 3.6
+  radius 7
+  castShadows TRUE
+}
+Wall {
+  translation -1.42 2.89 -2.4
+  name "wall(1)"
+  size 0.2 7.9 4.8
+}
+TexturedBackgroundLight {
+}
+Wall {
+  translation 0 3.09 -2.4
+  size 0.2 4.2 2.4
+}
+Door {
+  translation 0.58 1.17 5.49077e-06
+  rotation -2.3463999999870816e-06 -2.3463999999870816e-06 0.9999999999944944 -1.5707953071795862
+  jointAtLeft FALSE
+}
+StraightStairs {
+  translation -0.71 4.79 -2.5
+  rotation 0 0 1 -1.5707953071795862
+  stepRise 0.25
+  nSteps 10
+  leftRail []
+  rightRail []
+}
+Floor {
+  translation 20 9 0
+  size 40 20
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/tiles.jpg"
+      ]
+    }
+    metalness 0
+    textureTransform TextureTransform {
+      scale 0.25 0.25
+    }
+  }
+}
+Wall {
+  translation 10.37 -0.909977 0
+  rotation 0 0 1 1.5708
+  name "wall(19)"
+  size 0.2 2.4 2.4
+}
+Wall {
+  translation 17.11 -0.909972 0
+  rotation 0 0 1 1.5708
+  name "wall(26)"
+  size 0.2 2.4 2.4
+}
+Wall {
+  translation 19.69 -0.909972 0
+  rotation 0 0 1 1.5708
+  name "wall(29)"
+  size 0.2 2.4 2.4
+}
+Wall {
+  translation 26.44 -0.90997 0
+  rotation 0 0 1 1.5708
+  name "wall(35)"
+  size 0.2 2.4 2.4
+}
+Wall {
+  translation 33.02 -0.90997 0
+  rotation 0 0 1 1.5708
+  name "wall(41)"
+  size 0.2 3.2 3.6
+}
+Wall {
+  translation 35.82 -0.90997 0
+  rotation 0 0 1 1.5708
+  name "wall(86)"
+  size 0.2 0.8 3.6
+}
+Wall {
+  translation 37.42 -0.90997 0
+  rotation 0 0 1 1.5708
+  name "wall(88)"
+  size 0.2 0.8 3.6
+}
+Wall {
+  translation 39.27 -0.90997 0
+  rotation 0 0 1 1.5708
+  name "wall(90)"
+  size 0.2 1.3 3.6
+}
+Wall {
+  translation 13.33 -0.909977 0
+  rotation 0 0 1 1.5708
+  name "wall(24)"
+  size 0.2 1.6 2.4
+}
+Wall {
+  translation 23.47 -0.909966 0
+  rotation 0 0 1 1.5708
+  name "wall(33)"
+  size 0.2 1.6 2.4
+}
+Floor {
+  translation -0.75 0 0
+  name "floor(1)"
+  size 1.5 2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/tiles.jpg"
+      ]
+    }
+    metalness 0
+    textureTransform TextureTransform {
+      scale 0.25 0.25
+    }
+  }
+}
+Floor {
+  translation 0 5.75 -2.38
+  name "floor(2)"
+  size 3 2
+  tileSize 2 2
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/tiles.jpg"
+      ]
+    }
+    metalness 0
+  }
+}
+Wall {
+  translation 1.48 5.75 -2.41
+  name "wall(2)"
+  size 0.2 2 2.4
+}
+Wall {
+  translation 0.700005 4.89 -2.41
+  rotation 0 0 1 1.5708
+  name "wall(3)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 0.03 6.74 -2.41
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(4)"
+  size 0.2 3 2.4
+}
+Wall {
+  translation 1.14 3.95 0
+  name "wall(5)"
+  size 0.2 5.75 2.4
+}
+Desk {
+  translation 33.08 5.72 0
+  name "desk(4)"
+}
+Desk {
+  translation 33.09 6.91 0
+  name "desk(5)"
+}
+Desk {
+  translation 33.09 8.09 0
+  name "desk(6)"
+}
+Desk {
+  translation 36.7 6.91 0.61
+  name "desk(7)"
+}
+Desk {
+  translation 37.8 6.91 0.89
+  name "desk(29)"
+}
+Desk {
+  translation 37.8 8.11 0.89
+  name "desk(30)"
+}
+Desk {
+  translation 37.8 9.3 0.89
+  name "desk(31)"
+}
+Desk {
+  translation 37.8 12.6 0.89
+  name "desk(38)"
+}
+Desk {
+  translation 37.8 13.8 0.89
+  name "desk(39)"
+}
+Desk {
+  translation 37.8 10.49 0.89
+  name "desk(32)"
+}
+Desk {
+  translation 37.8 5.72 0.89
+  name "desk(33)"
+}
+Desk {
+  translation 37.8 4.52 0.89
+  name "desk(34)"
+}
+Desk {
+  translation 37.8 3.34 0.89
+  name "desk(35)"
+}
+Desk {
+  translation 37.8 1.13 0.89
+  name "desk(36)"
+}
+Desk {
+  translation 37.8 -0.07 0.89
+  name "desk(37)"
+}
+Desk {
+  translation 36.7 8.09 0.61
+  name "desk(19)"
+}
+Chair {
+  translation 37.05 12.51 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(21)"
+}
+Chair {
+  translation 37.05 13.88 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(22)"
+}
+Desk {
+  translation 36.7 5.74 0.61
+  name "desk(20)"
+}
+Desk {
+  translation 36.7 4.55 0.61
+  name "desk(21)"
+}
+Desk {
+  translation 36.7 3.36 0.61
+  name "desk(22)"
+}
+Desk {
+  translation 36.7 9.28 0.61
+  name "desk(23)"
+}
+Desk {
+  translation 36.7 10.47 0.61
+  name "desk(24)"
+}
+Desk {
+  translation 36.7 12.65 0.61
+  name "desk(25)"
+}
+Desk {
+  translation 36.7 13.8 0.61
+  name "desk(26)"
+}
+Desk {
+  translation 36.7 1.13 0.61
+  name "desk(27)"
+}
+Desk {
+  translation 36.7 -0.06 0.61
+  name "desk(28)"
+}
+Desk {
+  translation 35.34 6.91 0.3
+  name "desk(10)"
+}
+Desk {
+  translation 35.34 5.71 0.3
+  name "desk(11)"
+}
+Desk {
+  translation 35.34 4.53 0.3
+  name "desk(12)"
+}
+Desk {
+  translation 35.34 3.33 0.3
+  name "desk(13)"
+}
+Desk {
+  translation 35.34 1.11 0.3
+  name "desk(14)"
+}
+Desk {
+  translation 35.34 -0.1 0.3
+  name "desk(15)"
+}
+Desk {
+  translation 35.34 9.29 0.3
+  name "desk(8)"
+}
+Desk {
+  translation 35.34 10.49 0.3
+  name "desk(9)"
+}
+Desk {
+  translation 35.34 8.09 0.3
+  name "desk(16)"
+}
+Desk {
+  translation 35.34 13.83 0.3
+  name "desk(17)"
+}
+Desk {
+  translation 35.34 12.63 0.3
+  name "desk(18)"
+}
+Wall {
+  translation 0 3.95 0
+  name "wall(6)"
+  size 0.2 5.75 2.4
+}
+Wall {
+  translation -0.14 6.74 -0.01
+  rotation 0 0 1 1.5708
+  name "wall(7)"
+  size 0.2 2.75 2.41
+}
+Wall {
+  translation -1.04 -0.71 0
+  name "wall(8)"
+  size 0.6 0.6 2.4
+}
+Wall {
+  translation -0.289997 -0.91 0
+  rotation 0 0 1 1.5708
+  name "wall(9)"
+}
+Window {
+  translation 0.6 -0.91 0
+  rotation 0 0 1 1.5708
+}
+Wall {
+  translation 1.89 -0.91 0
+  rotation 0 0 1 1.5708
+  name "wall(10)"
+  size 0.2 1.8 2.4
+}
+Window {
+  translation 3.18 -0.91 0
+  rotation 0 0 1 1.5708
+  name "window(1)"
+}
+Wall {
+  translation 4.22 -0.909987 0
+  rotation 0 0 1 1.5708
+  name "wall(11)"
+  size 0.2 1.3 2.4
+}
+Wall {
+  translation 4.92 0.739989 0
+  rotation 0 0 1 3.14159
+  name "wall(12)"
+  size 0.2 3.5 2.4
+}
+Wall {
+  translation 4.92 3.26999 0
+  rotation 0 0 1 3.14159
+  name "wall(102)"
+  size 0.2 1.7 2.4
+}
+FireExtinguisher {
+  translation 4.75 1.6 0.83
+  enablePhysics FALSE
+}
+Wall {
+  translation 4.5 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(13)"
+  size 0.2 0.96 2.4
+}
+Wall {
+  translation 4.5 8.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(106)"
+  size 0.2 0.96 2.4
+}
+Door {
+  translation 3.52 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(2)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 3.52 8.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(23)"
+  jointAtLeft FALSE
+}
+Wall {
+  translation 1.55 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(14)"
+}
+Wall {
+  translation 1.55 8.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(107)"
+}
+Door {
+  translation 2.54 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(1)"
+}
+Door {
+  translation 2.54 8.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(24)"
+}
+Door {
+  translation 1.14 7.33 0
+  rotation 0 0 1 3.14159
+  name "door(25)"
+}
+Wall {
+  translation 4.51 2.07001 0
+  rotation 0 0 1 1.5708
+  name "wall(15)"
+  size 0.5 0.7 2.4
+}
+Wall {
+  translation 29.11 10.75 0
+  rotation 0 0 1 1.5708
+  name "wall(49)"
+  size 0.5 0.7 2.4
+}
+Wall {
+  translation 29.11 12.25 0
+  rotation 0 0 1 1.5708
+  name "wall(51)"
+  size 0.5 0.7 2.4
+}
+Wall {
+  translation 8.29 0.745 0
+  name "wall(16)"
+  size 0.2 3.51 2.4
+}
+Wall {
+  translation 11.65 0.745 0
+  name "wall(20)"
+  size 0.2 3.51 2.4
+}
+Wall {
+  translation 15.02 0.745 0
+  name "wall(23)"
+  size 0.2 3.51 2.4
+}
+Wall {
+  translation 18.39 0.745 0
+  name "wall(27)"
+  size 0.2 3.51 2.4
+}
+Wall {
+  translation 18.76 6.545 0
+  name "wall(42)"
+  size 0.2 1.51 2.4
+}
+Wall {
+  translation 21.5 7.095 0
+  name "wall(92)"
+  size 0.2 2.6 2.4
+}
+Wall {
+  translation 13.57 7.095 0
+  name "wall(96)"
+  size 0.2 2.6 2.4
+}
+Wall {
+  translation 9.61 7.095 0
+  name "wall(97)"
+  size 0.2 2.6 2.4
+}
+Wall {
+  translation 6.8 7.095 0
+  name "wall(99)"
+  size 0.2 2.6 2.4
+}
+Wall {
+  translation 4.92 7.055 0
+  name "wall(104)"
+  size 0.2 2.55 2.4
+}
+Wall {
+  translation 17.56 7.05 0
+  name "wall(94)"
+  size 0.2 2.9 2.4
+}
+Wall {
+  translation 21.77 0.745 0
+  name "wall(30)"
+  size 0.2 3.51 2.4
+}
+Wall {
+  translation 25.15 0.745 0
+  name "wall(32)"
+  size 0.2 3.51 2.4
+}
+Wall {
+  translation 28.52 0.745 0
+  name "wall(36)"
+  size 0.2 3.51 2.4
+}
+Wall {
+  translation 31.62 0.745 2.4
+  name "wall(68)"
+  size 0.4 3.51 1.2
+}
+Wall {
+  translation 6.09 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(17)"
+  size 0.2 2.23 2.4
+}
+Wall {
+  translation 10.46 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(21)"
+  size 0.2 2.2 2.4
+}
+Wall {
+  translation 17.2 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(25)"
+  size 0.2 2.2 2.4
+}
+Wall {
+  translation 23.96 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(31)"
+  size 0.2 2.2 2.4
+}
+Wall {
+  translation 12.84 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(22)"
+  size 0.2 2.2 2.4
+}
+Wall {
+  translation 19.58 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(28)"
+  size 0.2 2.2 2.4
+}
+Wall {
+  translation 19.68 5.70002 0
+  rotation 0 0 1 1.5708
+  name "wall(43)"
+  size 0.2 2.05 2.4
+}
+Wall {
+  translation 14.96 5.70002 0
+  rotation 0 0 1 1.5708
+  name "wall(95)"
+  size 0.2 3 2.4
+}
+Wall {
+  translation 10.23 5.70002 0
+  rotation 0 0 1 1.5708
+  name "wall(98)"
+  size 0.2 4.5 2.4
+}
+Wall {
+  translation 6.68 5.70002 0
+  rotation 0 0 1 1.5708
+  name "wall(100)"
+  size 0.2 0.6 2.4
+}
+Wall {
+  translation 5.6 5.70002 0
+  rotation 0 0 1 1.5708
+  name "wall(101)"
+  size 0.2 1.56 2.4
+}
+Wall {
+  translation 4.92 5.36002 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(103)"
+  size 0.2 0.5 2.4
+}
+Wall {
+  translation 1.14 8.07002 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(108)"
+  size 0.2 0.48 2.4
+}
+Wall {
+  translation 23.82 5.70002 0
+  rotation 0 0 1 1.5708
+  name "wall(91)"
+  size 0.2 6.3 2.4
+}
+Wall {
+  translation 28.06 5.70002 0
+  rotation 0 0 1 1.5708
+  name "wall(44)"
+  size 0.2 2.2 2.4
+}
+Wall {
+  translation 26.96 8.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(52)"
+  size 0.2 4 2.4
+}
+Wall {
+  translation 21.71 8.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(93)"
+  size 0.2 6.1 2.4
+}
+Wall {
+  translation 11.22 8.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(105)"
+  size 0.2 12.5 2.4
+}
+Wall {
+  translation 27.21 14.66 0
+  rotation 0 0 1 1.5708
+  name "wall(58)"
+  size 0.2 4.5 2.4
+}
+Wall {
+  translation 26.76 11.81 0
+  rotation 0 0 1 1.5708
+  name "wall(54)"
+  size 0.2 4 2.4
+}
+Wall {
+  translation 26.76 11.24 0
+  rotation 0 0 1 1.5708
+  name "wall(55)"
+  size 0.2 4 2.4
+}
+Wall {
+  translation 29.21 8.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(47)"
+  size 0.2 0.5 2.4
+}
+Wall {
+  translation 29.06 6.55002 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(45)"
+  size 0.2 1.5 2.4
+}
+Wall {
+  translation 29.36 9.00002 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(48)"
+}
+Wall {
+  translation 24.86 9.72 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(56)"
+  size 0.2 2.85 2.4
+}
+Wall {
+  translation 24.86 11.52 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(59)"
+  size 0.2 0.38 2.4
+}
+Wall {
+  translation 29.65 14.66 0
+  rotation 0 0 -1 1.57079
+  name "wall(60)"
+  size 0.2 0.38 2.4
+}
+Wall {
+  translation 33.63 14.66 0
+  rotation 0 0 -1 1.57079
+  name "wall(62)"
+  size 0.2 3 3.6
+}
+Wall {
+  translation 36.66 14.66 0
+  rotation 0 0 -1 1.57079
+  name "wall(70)"
+  size 0.2 1.5 3.6
+}
+Wall {
+  translation 39.07 14.66 0
+  rotation 0 0 -1 1.57079
+  name "wall(72)"
+  size 0.2 1.75 3.6
+}
+Wall {
+  translation 39.84 13.69 0
+  rotation 0 0 1 6.32203e-06
+  name "wall(73)"
+  size 0.2 1.75 3.6
+}
+Wall {
+  translation 39.84 11.15 0
+  rotation 0 0 1 6.32203e-06
+  name "wall(75)"
+  size 0.2 1.75 3.6
+}
+Wall {
+  translation 39.84 8.61 0
+  rotation 0 0 1 6.32203e-06
+  name "wall(77)"
+  size 0.2 1.75 3.6
+}
+Wall {
+  translation 39.84 6.07 0
+  rotation 0 0 1 6.32203e-06
+  name "wall(79)"
+  size 0.2 1.75 3.6
+}
+Wall {
+  translation 39.84 3.53 0
+  rotation 0 0 1 6.32203e-06
+  name "wall(81)"
+  size 0.2 1.75 3.6
+}
+Wall {
+  translation 39.84 0.99 0
+  rotation 0 0 1 6.32203e-06
+  name "wall(83)"
+  size 0.2 1.75 3.6
+}
+Wall {
+  translation 39.84 -0.38 0
+  rotation 0 0 1 6.32203e-06
+  name "wall(84)"
+  size 0.2 1 3.6
+}
+Wall {
+  translation 35.52 14.66 0
+  rotation 0 0 -1 1.57079
+  name "wall(69)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 36.98 6.86 0
+  rotation 0 0 -1 3.1415853071795863
+  name "wall(109)"
+  size 4 15.5 0.3
+  appearance CarpetFibers {
+  }
+}
+Wall {
+  translation 37.84 6.86 0.3
+  rotation 0 0 -1 3.1415853071795863
+  name "wall(110)"
+  size 3 15.5 0.3
+  appearance CarpetFibers {
+  }
+}
+Wall {
+  translation 38.43 6.86 0.6
+  rotation 0 0 -1 3.1415853071795863
+  name "wall(111)"
+  size 2 15.5 0.3
+  appearance CarpetFibers {
+  }
+}
+Wall {
+  translation 39.14 6.86 0.9
+  rotation 0 0 -1 3.1415853071795863
+  name "wall(112)"
+  size 1.25 15.5 0.3
+  appearance CarpetFibers {
+  }
+}
+Wall {
+  translation 35.02 -0.91 0
+  rotation 0 0 -1 1.57079
+  name "wall(85)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 36.62 -0.91 0
+  rotation 0 0 -1 1.57079
+  name "wall(87)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 38.22 -0.91 0
+  rotation 0 0 -1 1.57079
+  name "wall(89)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 37.8 14.66 0
+  rotation 0 0 -1 1.57079
+  name "wall(71)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 39.84 12.42 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(74)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 39.84 9.88 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(76)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 39.84 7.34 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(78)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 39.84 4.8 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(80)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 39.84 2.26 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(82)"
+  size 0.2 0.8 1.2
+}
+Wall {
+  translation 33.74 14.44 0
+  rotation 0 0 -1 1.57079
+  name "wall(63)"
+  size 0.3 0.38 2.4
+}
+Wall {
+  translation 33.6 14.23 0
+  rotation 0 0 -1 1.57079
+  name "wall(65)"
+  size 0.12 0.1 2.4
+}
+Wall {
+  translation 33.4484 13.9422 0
+  rotation 0 0 -1 0.785392
+  name "wall(64)"
+  size 0.2 2 3.6
+}
+Wall {
+  translation 32.3909 12.8847 2.4
+  rotation 0 0 -1 0.785392
+  name "wall(67)"
+  size 0.2 1 1.2
+}
+Wall {
+  translation 31.8694 12.3632 0
+  rotation 2.3152e-08 -9.58979e-09 1 -0.785395307179586
+  name "wall(66)"
+  size 0.2 0.49 3.6
+}
+Wall {
+  translation 31.08 14.66 0
+  rotation 0 0 -1 1.57079
+  name "wall(61)"
+  size 0.2 0.5 2.4
+}
+Wall {
+  translation 24.86 13.33 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(57)"
+  size 0.2 2.85 2.4
+}
+Wall {
+  translation 29.36 14.04 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(53)"
+  size 0.2 1.08 2.4
+}
+Wall {
+  translation 28.86 11.5 0
+  rotation 0 0 1 -3.1415853071795863
+  name "wall(50)"
+}
+Wall {
+  translation 31.72 7.36002 0
+  rotation 0 0 -1 3.1415853071795863
+  name "wall(46)"
+  size 0.2 9.8 3.6
+}
+Wall {
+  translation 26.34 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(34)"
+  size 0.2 2.2 2.4
+}
+Wall {
+  translation 31.52 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(37)"
+  size 0.2 0.6 2.4
+}
+Wall {
+  translation 28.92 2.40002 0
+  rotation 0 0 1 1.5708
+  name "wall(38)"
+  size 0.2 0.6 2.4
+}
+Wall {
+  translation 28.92 -0.90998 0
+  rotation 0 0 1 1.5708
+  name "wall(39)"
+  size 0.2 0.6 2.4
+}
+Wall {
+  translation 30.32 -0.90998 0
+  rotation 0 0 1 1.5708
+  name "wall(40)"
+  size 0.2 0.6 2.4
+}
+Door {
+  translation 7.7 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(3)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 14.43 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(5)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 7.48 5.7 0
+  rotation 0 0 1 1.5708
+  name "door(21)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 18.76 7.8 0
+  rotation 0 0 1 1.01503e-06
+  name "door(17)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 21.17 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(7)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 27.93 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(9)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 30.72 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(11)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 29.36 13 0
+  rotation 0 0 1 3.14159
+  name "door(14)"
+  jointAtLeft FALSE
+}
+Door {
+  translation 8.88 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(4)"
+}
+Door {
+  translation 4.92 4.62 0
+  rotation 0 0 1 3.14159
+  name "door(22)"
+}
+Door {
+  translation 15.61 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(6)"
+}
+Door {
+  translation 18.16 8.4 0
+  rotation 0 0 1 1.5708
+  name "door(18)"
+}
+Door {
+  translation 16.96 5.7 0
+  rotation 0 0 1 1.5708
+  name "door(19)"
+}
+Door {
+  translation 12.97 5.7 0
+  rotation 0 0 1 1.5708
+  name "door(20)"
+}
+Door {
+  translation 22.37 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(8)"
+}
+Door {
+  translation 29.72 2.4 0
+  rotation 0 0 1 -1.5707953071795862
+  name "door(10)"
+}
+Door {
+  translation 29.06 7.8 0
+  rotation 0 0 1 3.14159
+  name "door(12)"
+}
+Door {
+  translation 29.36 10 0
+  rotation 0 0 1 3.14159
+  name "door(13)"
+}
+Door {
+  translation 30.33 14.66 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "door(15)"
+}
+Door {
+  translation 32.3863 12.8813 0
+  rotation 0 0 1 2.35619
+  name "door(16)"
+}
+Window {
+  translation 5.41 -0.910001 0
+  rotation 0 0 1 1.5708
+  name "window(2)"
+}
+Window {
+  translation 8.78 -0.910001 0
+  rotation 0 0 1 1.5708
+  name "window(3)"
+}
+Window {
+  translation 15.51 -0.910001 0
+  rotation 0 0 1 1.5708
+  name "window(6)"
+}
+Window {
+  translation 21.28 -0.909997 0
+  rotation 0 0 1 1.5708
+  name "window(7)"
+}
+Window {
+  translation 28.03 -0.909997 0
+  rotation 0 0 1 1.5708
+  name "window(10)"
+}
+Window {
+  translation 31.73 14.66 0
+  rotation 0 0 1 -1.5707953071795862
+  name "window(13)"
+}
+Window {
+  translation 35.52 14.66 1.2
+  rotation 0 0 1 -1.5707953071795862
+  name "window(14)"
+}
+Window {
+  translation 35.02 -0.91 1.2
+  rotation 0 0 1 -1.5707953071795862
+  name "window(21)"
+}
+Window {
+  translation 36.62 -0.91 1.2
+  rotation 0 0 1 -1.5707953071795862
+  name "window(22)"
+}
+Window {
+  translation 38.22 -0.91 1.2
+  rotation 0 0 1 -1.5707953071795862
+  name "window(23)"
+}
+Window {
+  translation 37.8 14.66 1.2
+  rotation 0 0 1 -1.5707953071795862
+  name "window(15)"
+}
+Window {
+  translation 39.84 12.42 1.2
+  rotation 0 0 1 1.01503e-06
+  name "window(16)"
+}
+Window {
+  translation 39.84 9.88 1.2
+  rotation 0 0 1 1.01503e-06
+  name "window(17)"
+}
+Window {
+  translation 39.84 7.34 1.2
+  rotation 0 0 1 1.01503e-06
+  name "window(18)"
+}
+Window {
+  translation 39.84 4.8 1.2
+  rotation 0 0 1 1.01503e-06
+  name "window(19)"
+}
+Window {
+  translation 39.84 2.26 1.2
+  rotation 0 0 1 1.01503e-06
+  name "window(20)"
+}
+Window {
+  translation 29.62 -0.909997 0
+  rotation 0 0 1 1.5708
+  name "window(11)"
+}
+Window {
+  translation 31.02 -0.909997 0
+  rotation 0 0 1 1.5708
+  name "window(12)"
+}
+Window {
+  translation 12.14 -0.910001 0
+  rotation 0 0 1 1.5708
+  name "window(4)"
+}
+Window {
+  translation 14.53 -0.91 0
+  rotation 0 0 1 1.5708
+  name "window(5)"
+}
+Window {
+  translation 22.27 -0.909998 0
+  rotation 0 0 1 1.5708
+  name "window(8)"
+}
+Window {
+  translation 24.66 -0.909998 0
+  rotation 0 0 1 1.5708
+  name "window(9)"
+}
+Wall {
+  translation 7 -0.909977 0
+  rotation 0 0 1 1.5708
+  name "wall(18)"
+  size 0.2 2.4 2.4
+}
+Desk {
+  translation 5.62 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+}
+Desk {
+  translation 8.99 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(2)"
+}
+Desk {
+  translation 12.38 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(51)"
+}
+Desk {
+  translation 13.58 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(52)"
+}
+Desk {
+  translation 15.77 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(53)"
+}
+Desk {
+  translation 16.97 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(54)"
+}
+Desk {
+  translation 19.17 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(55)"
+}
+Desk {
+  translation 20.36 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(56)"
+}
+Desk {
+  translation 22.54 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(57)"
+}
+Desk {
+  translation 23.74 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(58)"
+}
+Desk {
+  translation 25.88 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(59)"
+}
+Desk {
+  translation 27.08 0.95 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(60)"
+}
+Desk {
+  translation 6.81 0.950024 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(1)"
+}
+Desk {
+  translation 10.17 0.950024 0
+  rotation 0 0 1 -1.5707953071795862
+  name "desk(3)"
+}
+Keyboard {
+  translation 5.74527 0.931733 0.71
+  rotation 0 0 1 1.8326
+}
+Keyboard {
+  translation 9.02527 0.931733 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "keyboard(1)"
+}
+Keyboard {
+  translation 12.4353 0.931765 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "keyboard(2)"
+}
+Keyboard {
+  translation 15.9453 0.931783 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "keyboard(3)"
+}
+Keyboard {
+  translation 19.2153 0.931804 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "keyboard(4)"
+}
+Keyboard {
+  translation 22.7253 0.93184 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "keyboard(5)"
+}
+Keyboard {
+  translation 26.0953 0.931861 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "keyboard(6)"
+}
+Monitor {
+  translation 5.65554 1.09204 0.71
+  rotation 0 0 1 -1.3089953071795861
+}
+Monitor {
+  translation 8.94687 1.13539 0.71
+  rotation 0 0 1 -1.3089953071795861
+  name "monitor(1)"
+}
+Monitor {
+  translation 12.4069 1.13539 0.71
+  rotation 0 0 1 -1.5707953071795862
+  name "monitor(2)"
+}
+Monitor {
+  translation 15.9069 1.13539 0.71
+  rotation 0 0 1 -1.5707953071795862
+  name "monitor(3)"
+}
+Monitor {
+  translation 19.1769 1.13539 0.71
+  rotation 0 0 1 -1.5707953071795862
+  name "monitor(4)"
+}
+Monitor {
+  translation 22.6869 1.13539 0.71
+  rotation 0 0 1 -1.5707953071795862
+  name "monitor(5)"
+}
+Monitor {
+  translation 26.0769 1.13539 0.71
+  rotation 0 0 1 -1.5707953071795862
+  name "monitor(6)"
+}
+ComputerMouse {
+  translation 6.1 0.93 0.71
+  rotation 0 0 1 1.8326
+}
+ComputerMouse {
+  translation 9.39791 0.871804 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "computer mouse(1)"
+}
+ComputerMouse {
+  translation 12.8079 0.871823 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "computer mouse(2)"
+}
+ComputerMouse {
+  translation 16.2679 0.871827 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "computer mouse(3)"
+}
+ComputerMouse {
+  translation 19.5279 0.871871 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "computer mouse(4)"
+}
+ComputerMouse {
+  translation 23.0579 0.871871 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "computer mouse(5)"
+}
+ComputerMouse {
+  translation 26.3879 0.871936 0.71
+  rotation 0 0 -1 -1.5708053071795867
+  name "computer mouse(6)"
+}
+DesktopComputer {
+  translation 5.2 0.85 0
+  rotation 0 0 1 -1.5707953071795862
+}
+OfficeChair {
+  translation 5.59216 0.2066 0
+  rotation 0 0 1 1.0472
+}
+OfficeChair {
+  translation 8.93784 0.041602 0
+  rotation 0 0 1 1.0472
+  name "office chair(1)"
+}
+OfficeChair {
+  translation 12.4938 -0.00224379 0
+  rotation 0 0 1 1.5708
+  name "office chair(2)"
+}
+OfficeChair {
+  translation 15.8938 -0.00223126 0
+  rotation 0 0 1 1.5708
+  name "office chair(3)"
+}
+OfficeChair {
+  translation 19.2338 -0.00221904 0
+  rotation 0 0 1 1.5708
+  name "office chair(4)"
+}
+OfficeChair {
+  translation 22.4838 -0.00220715 0
+  rotation 0 0 1 1.5708
+  name "office chair(5)"
+}
+OfficeChair {
+  translation 25.9038 -0.00219454 0
+  rotation 0 0 1 1.5708
+  name "office chair(6)"
+}
+Chair {
+  translation 35.76 3.32 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+}
+Chair {
+  translation 35.76 4.5 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(2)"
+}
+Chair {
+  translation 35.76 5.73 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(3)"
+}
+Chair {
+  translation 35.76 6.89 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(4)"
+}
+Chair {
+  translation 35.76 8.07 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(5)"
+}
+Chair {
+  translation 35.76 9.29 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(6)"
+}
+Chair {
+  translation 35.76 10.43 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(7)"
+}
+Chair {
+  translation 35.76 12.65 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(8)"
+}
+Chair {
+  translation 35.76 13.83 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(9)"
+}
+Chair {
+  translation 35.76 -0.15 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(10)"
+}
+Chair {
+  translation 35.76 1.15 0.289991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(11)"
+}
+Chair {
+  translation 37.05 3.32 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(12)"
+}
+Chair {
+  translation 37.05 1.21 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(13)"
+}
+Chair {
+  translation 37.05 -0.01 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(14)"
+}
+Chair {
+  translation 37.05 4.58 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(15)"
+}
+Chair {
+  translation 37.05 5.76 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(16)"
+}
+Chair {
+  translation 37.05 6.91 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(17)"
+}
+Chair {
+  translation 38.15 6.91 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(23)"
+}
+Chair {
+  translation 38.15 5.74 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(24)"
+}
+Chair {
+  translation 38.15 4.56 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(25)"
+}
+Chair {
+  translation 38.15 3.36 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(26)"
+}
+Chair {
+  translation 38.15 1.13 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(27)"
+}
+Chair {
+  translation 38.15 3.52079e-14 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(28)"
+}
+Chair {
+  translation 38.15 8.14 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(29)"
+}
+Chair {
+  translation 38.15 9.35 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(30)"
+}
+Chair {
+  translation 39.24 9.35 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(34)"
+}
+Chair {
+  translation 39.24 10.44 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(35)"
+}
+Chair {
+  translation 39.24 12.58 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(36)"
+}
+Chair {
+  translation 39.24 13.87 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(37)"
+}
+Chair {
+  translation 39.24 8.08 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(38)"
+}
+Chair {
+  translation 39.24 6.95 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(39)"
+}
+Chair {
+  translation 39.24 5.82 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(40)"
+}
+Chair {
+  translation 39.24 4.61 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(41)"
+}
+Chair {
+  translation 39.24 3.39 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(42)"
+}
+Chair {
+  translation 39.24 1.23 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(43)"
+}
+Chair {
+  translation 39.24 0.03 1.19999
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(44)"
+}
+Chair {
+  translation 38.15 10.48 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(31)"
+}
+Chair {
+  translation 38.15 12.59 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(32)"
+}
+Chair {
+  translation 38.15 13.85 0.899991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(33)"
+}
+Desk {
+  translation 38.89 9.3 1.19
+  name "desk(40)"
+}
+Desk {
+  translation 38.89 8.11 1.19
+  name "desk(41)"
+}
+Desk {
+  translation 38.89 6.92 1.19
+  name "desk(42)"
+}
+Desk {
+  translation 38.89 5.73 1.19
+  name "desk(43)"
+}
+Desk {
+  translation 38.89 4.53 1.19
+  name "desk(44)"
+}
+Desk {
+  translation 38.89 3.33 1.19
+  name "desk(45)"
+}
+Desk {
+  translation 38.89 10.49 1.19
+  name "desk(46)"
+}
+Desk {
+  translation 38.89 12.61 1.19
+  name "desk(47)"
+}
+Desk {
+  translation 38.89 13.81 1.19
+  name "desk(48)"
+}
+Desk {
+  translation 38.89 1.15 1.19
+  name "desk(49)"
+}
+Desk {
+  translation 38.89 -0.05 1.19
+  name "desk(50)"
+}
+Chair {
+  translation 37.05 8.1 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(18)"
+}
+Chair {
+  translation 37.05 9.29 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(19)"
+}
+Chair {
+  translation 37.05 10.45 0.599991
+  rotation 2.6535799999906574e-06 1.2723599999955204e-14 0.9999999999964793 3.14159
+  name "chair(20)"
+}
+Ceiling {
+  translation 15 3.75 2.4
+  size 33.5 9.5
+}
+Ceiling {
+  translation 28.25 11.5 2.4
+  name "ceiling(1)"
+  size 7 6.25
+}
+Ceiling {
+  translation 32.25 14.25 2.4
+  name "ceiling(2)"
+  size 1 1
+}
+Ceiling {
+  translation 33 13.82 2.4
+  name "ceiling(6)"
+  size 0.6 0.3
+}
+Ceiling {
+  translation 32.4 13.21 2.4
+  name "ceiling(8)"
+  size 0.6 0.3
+}
+Ceiling {
+  translation 32.12 12.93 2.4
+  name "ceiling(9)"
+  size 0.6 0.3
+}
+Ceiling {
+  translation 31.9 13.03 2.4
+  name "ceiling(12)"
+  size 0.5 0.5
+}
+Ceiling {
+  translation 31.84 12.64 2.4
+  name "ceiling(10)"
+  size 0.6 0.3
+}
+Ceiling {
+  translation 31.6 12.5 2.4
+  name "ceiling(11)"
+  size 0.6 0.3
+}
+Ceiling {
+  translation 32.73 13.54 2.4
+  name "ceiling(7)"
+  size 0.6 0.3
+}
+Ceiling {
+  translation 32.25 13.5 2.4
+  name "ceiling(5)"
+  size 1 0.5
+}
+Ceiling {
+  translation 33.25 14.4 2.4
+  name "ceiling(3)"
+  size 1 0.5
+}
+Ceiling {
+  translation 33.15 14.05 2.4
+  name "ceiling(4)"
+  size 0.8 0.25
+}
+Ceiling {
+  translation 35.75 7 3.6
+  name "ceiling(13)"
+  size 8 16
+}
